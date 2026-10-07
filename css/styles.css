@@ -1,38 +1,42 @@
 /* Color Palette
-#0a0409 - Near Black
-#2d1042 - Deep Purple
-#5a3a7d - Muted Purple
-#d42e5e - Crimson Pink
-#f5f0ff - Light Lavender
+#F7F4F8 - Soft Off-White
+#E9E0EE - Light Lavender
+#DCCFE5 - Muted Lavender
+#6F4B7B - Plum Accent
+#2B2030 - Dark Plum Text
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    background: #0a0409;
-    color: #f5f0ff;
-    font-family: "IM Fell English", Georgia, serif;
+    background: #F7F4F8;
+    color: #2B2030;
+    font-family: "Open Sans", Arial, sans-serif;
+    margin: 0;
+    line-height: 1.6;
 }
 
 h1,
 h2,
 h3 {
-    font-family: "UnifrakturCook", Georgia, serif;
+    font-family: "Montserrat", Arial, sans-serif;
+    color: #2B2030;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 700;
+    margin-bottom: 8px;
 }
 
 h2 {
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 28px;
+    font-weight: 600;
 }
 
 h3 {
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 21px;
+    font-weight: 600;
 }
 
 p,
@@ -41,53 +45,65 @@ a {
     font-weight: 400;
 }
 
+header,
+section,
+footer {
+    padding: 28px 10%;
+}
+
+main {
+    background: #F7F4F8;
+}
+
 
 /* Header & Footer 
 ------------------------------------*/
 header {
-    background: #0a0409;
-    color: #f5f0ff;
+    background: #E9E0EE;
+    color: #2B2030;
 }
 
 header h2 {
-    color: #d42e5e;
+    color: #6F4B7B;
 }
 
 header img {
-    width: 180px;
+    width: 150px;
 }
 
 footer {
-    background: #0a0409;
-    color: #f5f0ff;
+    background: #DCCFE5;
+    color: #2B2030;
 }
 
 footer a {
-    color: #d42e5e;
+    color: #5A3C65;
+    font-weight: 600;
+    margin-right: 18px;
 }
 
 
 /* Work Experience
 ------------------------------------*/
 .work-experience {
-    background: #2d1042;
-    color: #f5f0ff;
+    background: #F3EDF6;
+    color: #2B2030;
 }
 
 .work-experience h2,
 .work-experience h3 {
-    color: #d42e5e;
+    color: #5A3C65;
 }
 
 
 /* Education
 ------------------------------------*/
 .education {
-    background: #5a3a7d;
-    color: #f5f0ff;
+    background: #EDE5F1;
+    color: #2B2030;
 }
 
 .education h2,
 .education h3 {
-    color: #f5f0ff;
+    color: #5A3C65;
 }

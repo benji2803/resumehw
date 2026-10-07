@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300" role="img" aria-label="Benjamin Maldonado initials">
-  <rect width="300" height="300" fill="#2d1042"/>
-  <circle cx="150" cy="150" r="112" fill="#0a0409" stroke="#d42e5e" stroke-width="10"/>
-  <text x="150" y="177" text-anchor="middle" font-family="Georgia, serif" font-size="86" font-weight="700" fill="#f5f0ff">BM</text>
+  <rect width="300" height="300" fill="#E9E0EE"/>
+  <circle cx="150" cy="150" r="112" fill="#F7F4F8" stroke="#6F4B7B" stroke-width="10"/>
+  <text x="150" y="177" text-anchor="middle" font-family="Arial, sans-serif" font-size="82" font-weight="700" fill="#2B2030">BM</text>
 </svg>
