@@ -1,26 +1,93 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+#0a0409 - Near Black
+#2d1042 - Deep Purple
+#5a3a7d - Muted Purple
+#d42e5e - Crimson Pink
+#f5f0ff - Light Lavender
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background: #0a0409;
+    color: #f5f0ff;
+    font-family: "IM Fell English", Georgia, serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "UnifrakturCook", Georgia, serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+p,
+li,
+a {
+    font-weight: 400;
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
+header {
+    background: #0a0409;
+    color: #f5f0ff;
+}
 
+header h2 {
+    color: #d42e5e;
+}
+
+header img {
+    width: 180px;
+}
+
+footer {
+    background: #0a0409;
+    color: #f5f0ff;
+}
+
+footer a {
+    color: #d42e5e;
+}
 
 
 /* Work Experience
 ------------------------------------*/
+.work-experience {
+    background: #2d1042;
+    color: #f5f0ff;
+}
 
+.work-experience h2,
+.work-experience h3 {
+    color: #d42e5e;
+}
 
 
 /* Education
 ------------------------------------*/
+.education {
+    background: #5a3a7d;
+    color: #f5f0ff;
+}
+
+.education h2,
+.education h3 {
+    color: #f5f0ff;
+}
